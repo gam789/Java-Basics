@@ -1,15 +1,11 @@
+//11.Program to print Pascal's Triangle
 package javaassignments;
-
-
 
 public class PascalsTriangle {
 	
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		
-		int numRows = 5; // Desired number of rows
+
+		int numRows = 6; // Desired number of rows
 
         for (int i = 0; i < numRows; i++) {
             int number = 1;
@@ -25,7 +21,6 @@ public class PascalsTriangle {
             }
             
             System.out.println();
-
 	}
 
 }

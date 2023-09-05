@@ -1,3 +1,4 @@
+//8.Program to reverse an array
 package javaassignments;
 
 import java.util.Arrays;
@@ -15,8 +16,6 @@ public class ReverseArray {
 		}
 		
 		System.out.println(Arrays.toString(arr));
-	
-		
 	}
 
 }

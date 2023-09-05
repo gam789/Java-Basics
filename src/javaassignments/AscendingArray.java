@@ -1,3 +1,4 @@
+//9.Program to sort the array in ascending order
 package javaassignments;
 
 import java.util.Arrays;
@@ -5,11 +6,9 @@ import java.util.Arrays;
 public class AscendingArray {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		int arr[]= { -5, -9, 8, 12, 1, 3 };
 		 
-        
         System.out.print("Original array: ");
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");

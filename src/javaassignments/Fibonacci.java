@@ -1,3 +1,4 @@
+//5.Program to print Fibonacci series
 package javaassignments;
 
 import java.util.Scanner;
@@ -5,8 +6,6 @@ import java.util.Scanner;
 public class Fibonacci {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
 		//0,1,1,2,3
 		int firstnum = 0;
 		int secondnum = 1;

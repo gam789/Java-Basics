@@ -1,3 +1,4 @@
+//2.Program to print the factorial of a number
 package javaassignments;
 
 public class Factorial {
@@ -10,7 +11,7 @@ public class Factorial {
 		
 		for(int i=1; i<=number; i++) {
 			factorial = factorial * i;
-			System.out.println("Factorial:" + factorial);
+			//System.out.println("Factorial:" + factorial);
 		}
 		
 		System.out.println("Factorial is:" + factorial);

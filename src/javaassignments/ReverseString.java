@@ -1,3 +1,4 @@
+//3.Program to reverse a string
 package javaassignments;
 
 public class ReverseString {
@@ -15,7 +16,7 @@ public class ReverseString {
 	        ch= str.charAt(i);
 	        //System.out.println(ch);
 	        reversestr=  ch + reversestr; 
-	        System.out.println(reversestr);
+	        //System.out.println(reversestr);
 	      }
 	      System.out.println("Reverse String is: "+ reversestr);
 	}

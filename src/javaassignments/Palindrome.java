@@ -1,3 +1,4 @@
+//1.Program to check whether a number is Palindrome or not
 package javaassignments;
 
 public class Palindrome {
