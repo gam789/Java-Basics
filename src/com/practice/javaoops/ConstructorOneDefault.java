@@ -1,6 +1,6 @@
 package com.practice.javaoops;
 
-public class ConstructorOneDefault {
+public class ConstructorOneDefault{
 	
 	int empID;
 	int salary;
