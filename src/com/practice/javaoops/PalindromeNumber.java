@@ -14,16 +14,19 @@ public class PalindromeNumber {
 		
 		int originalNumber = num;
 		
-		int rev = 0;
-		
-		while(num>0) {
-			rev = rev * 10 + num%10;
-			num = num / 10;
+		int reversedNumber = 0;
+		int temp = num;
+		while(temp >0) {
+			
+			int remainder = temp % 10;
+			reversedNumber = reversedNumber * 10 + remainder;
+			temp =  temp / 10;
+			
 		}
 		
 		
 		
-		if(originalNumber == rev) {
+		if(originalNumber == reversedNumber) {
 			System.out.println("Palindrome");
 		}
 		
